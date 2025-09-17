@@ -48,9 +48,9 @@ export default function HomePage() {
                         <section className="mb-6">
                             <h2 className="text-2xl font-semibold mb-2">Tech Stack</h2>
                             <ul className="list-disc list-outside ml-4 space-y-1">
-                                <li><strong>Languages:</strong> JavaScript, TypeScript, HTML, CSS, SQL, Solidity, Rust(basic)</li>
+                                <li><strong>Languages:</strong> JavaScript, TypeScript, HTML, CSS, SQL, Solidity, Rust</li>
                                 <li><strong>Frameworks & Libs:</strong> React, Redux, Vue, NestJS, NodeJS</li>
-                                <li><strong>Blockchain:</strong> Ethers, Web3, Hardhat, Foundry, Solidity, EVM, Solana(basic)</li>
+                                <li><strong>Blockchain:</strong> Ethers, Web3, Hardhat, Foundry, Solidity, EVM, Solana</li>
                                 <li><strong>Databases:</strong> PostgreSQL, MySQL, Redis</li>
                                 <li><strong>Tools:</strong> RabbitMQ, RedisSMQ, GraphQL, Docker, Swagger, TypeORM, TelegrafJS, Git, Jira, Linux</li>
                             </ul>
@@ -59,7 +59,12 @@ export default function HomePage() {
                         <section className="mb-6">
                             <h2 className="text-2xl font-semibold mb-2">Projects</h2>
                             <ul className="list-disc list-outside ml-4 space-y-1">
-                                <li><strong>Trading Bot Platform</strong> <i><span className="text-sm">(Dec 2024 – Present)</span></i>: <br/>
+                                <li><strong>Arbitrage Trading Bot</strong> <i><span className="text-sm">(Apr 2025 – Present)</span></i>: <br/>
+                                    Developing high-performance backend services in Rust for an automated arbitrage trading platform.
+                                    Implemented trade execution and low-latency processing, ensuring reliable and efficient operation under
+                                    heavy load.
+                                </li>
+                                <li><strong>Trading Bot Platform</strong> <i><span className="text-sm">(Dec 2024 – Apr 2025)</span></i>: <br/>
                                     Developed the backend trading engine and services for a high-frequency automated trading bot. Focused on NestJS, PostgreSQL, and TypeORM for modular and robust infrastructure.
                                 </li>
                                 <li><strong>baZOOka Telegram Bot</strong> <i><span className="text-sm">(Nov 2023 – Dec 2024)</span></i>: <br/>
@@ -93,7 +98,11 @@ export default function HomePage() {
                             <h2 className="text-2xl font-semibold mb-2">Experience</h2>
                             <ul className="list-disc list-outside ml-4 space-y-1">
                                 <li>
-                                    <strong>Software Engineer @ XPIRIO</strong> <i><span className="text-sm">(Aug 2021 — Present)</span></i><br />
+                                    <strong>Software Engineer @ Peanut.trade</strong> <i><span className="text-sm">(Apr 2025 — Present)</span></i><br />
+                                    Developing high-performance backend services in Rust for an automated arbitrage trading platform.
+                                </li>
+                                <li>
+                                    <strong>Software Engineer @ XPIRIO</strong> <i><span className="text-sm">(Aug 2021 — Apr 2025)</span></i><br />
                                     Contributed to multiple DeFi, trading, and blockchain projects as both backend and smart contract engineer.
                                 </li>
                                 <li>
@@ -124,7 +133,7 @@ export default function HomePage() {
                         </section>
 
                         <a
-                            href="/Andrii_Skoropupov_-_Software_Engineer.pdf"
+                            href="/Andrii_Skoropupov-Software_Engineer.pdf"
                             download
                             className="inline-block mt-4"
                         >
