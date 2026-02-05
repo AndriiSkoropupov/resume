@@ -50,7 +50,7 @@ export default function HomePage() {
                             <ul className="list-disc list-outside ml-4 space-y-1">
                                 <li><strong>Languages:</strong> JavaScript, TypeScript, HTML, CSS, SQL, Solidity, Rust</li>
                                 <li><strong>Frameworks & Libs:</strong> React, Redux, Vue, NestJS, NodeJS</li>
-                                <li><strong>Blockchain:</strong> Ethers, Web3, Hardhat, Foundry, Solidity, EVM, Solana</li>
+                                <li><strong>Blockchain:</strong> Ethers, Web3, Hardhat, Foundry, Solidity, EVM, Solana, Anchor</li>
                                 <li><strong>Databases:</strong> PostgreSQL, MySQL, Redis</li>
                                 <li><strong>Tools:</strong> RabbitMQ, RedisSMQ, GraphQL, Docker, Swagger, TypeORM, TelegrafJS, Git, Jira, Linux</li>
                             </ul>
@@ -59,9 +59,14 @@ export default function HomePage() {
                         <section className="mb-6">
                             <h2 className="text-2xl font-semibold mb-2">Projects</h2>
                             <ul className="list-disc list-outside ml-4 space-y-1">
-                                <li><strong>Arbitrage Trading Bot</strong> <i><span className="text-sm">(Apr 2025 – Present)</span></i>: <br/>
-                                    Developing high-performance backend services in Rust for an automated arbitrage trading platform.
-                                    Implemented trade execution and low-latency processing, ensuring reliable and efficient operation under
+                                <li><strong>Digital Asset Governance</strong> <i><span className="text-sm">(Oct 2025 – Present)</span></i>: <br/>
+                                    Architected an on-chain permissioning system using Anchor and Solana Token-2022 extensions for granular,
+                                    multi-authority asset control. Engineered a full-stack infrastructure including a NestJS API, TypeScript SDK,
+                                    and CLI to orchestrate complex on-chain governance and lifecycle management.
+                                </li>
+                                <li><strong>Low-Latency Execution Engine</strong> <i><span className="text-sm">(Apr 2025 – Sep 2025)</span></i>: <br/>
+                                    Engineered a high-performance Rust backend for high-frequency transaction processing. Optimized real-time
+                                    decision-making logic using zero-cost abstractions to ensure minimal overhead and maximum scalability under
                                     heavy load.
                                 </li>
                                 <li><strong>Trading Bot Platform</strong> <i><span className="text-sm">(Dec 2024 – Apr 2025)</span></i>: <br/>
@@ -98,8 +103,13 @@ export default function HomePage() {
                             <h2 className="text-2xl font-semibold mb-2">Experience</h2>
                             <ul className="list-disc list-outside ml-4 space-y-1">
                                 <li>
-                                    <strong>Software Engineer @ Peanut.trade</strong> <i><span className="text-sm">(Apr 2025 — Present)</span></i><br />
-                                    Developing high-performance backend services in Rust for an automated arbitrage trading platform.
+                                    <strong>Software Engineer @ Syntora.Tech</strong> <i><span className="text-sm">(Oct 2025 — Present)</span></i><br />
+                                    Architecting on-chain governance and permissioning systems on Solana, building infrastructure
+                                    to orchestrate complex asset management and programmable authority.
+                                </li>
+                                <li>
+                                    <strong>Software Engineer @ Peanut.trade</strong> <i><span className="text-sm">(Apr 2025 — Sep 2025)</span></i><br />
+                                    Developing high-performance Rust backends for low-latency transaction processing and automated execution engines.
                                 </li>
                                 <li>
                                     <strong>Software Engineer @ XPIRIO</strong> <i><span className="text-sm">(Aug 2021 — Apr 2025)</span></i><br />
